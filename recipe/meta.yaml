@@ -1,5 +1,5 @@
 {% set name = "zodipy" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/zodipy-{{ version }}.tar.gz
-  sha256: be06c529b0162585995ed14cc5ea5cdf88af07b87bd1d8911d681ae3629ce61a
+  sha256: ed773e193a53c8e45893d9329b4bbafcdc2e048235dade933f16dffc8a532994
 
 build:
   noarch: python
